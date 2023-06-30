@@ -2,7 +2,7 @@ export default function iterateThroughObject(reportWithIterator) {
   let res = '';
 
   for (const employee of reportWithIterator) {
-    res += employee + ' | ';
+    res += `${employee} | `;
   }
 
   /* eliminate the trailing '|' from res */
