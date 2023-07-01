@@ -7,9 +7,10 @@
         * NodeJS 12.11.x and above
 
 ## Installations
-        * [npm install --save-dev jest]
-        * [npm install --save-dev babel-jest @babel/core @babel/preset-env]
-        * [npm install --save-dev eslint]
+        $ npm install --save-dev jest
+        $ npm install --save-dev babel-jest @babel/core @babel/preset-env
+        $ npm install --save-dev eslint
+        $ npm install
 
 ## Tasks
   | Task | Descriptions |
@@ -28,6 +29,6 @@
   | [11-createEmployeesObject.js] (./11-createEmployeesObject.js) | function `createEmployeesObject` that receives two arguments |
   | [12-createReportObject.js] (./12-createReportObject.js) | function `createReportObject` whose parameter `employessList` is the return value of `createEmployeesObject` function |
   | [100-createIteratorObject.js] (./100-createIteratorObject.js) | function `createIteratorObject` that takes into argument a report Object from `createReportObject` function and returns an iterator to go through every employee in every department |
-  | [] (./) | function `iterateThroughObject` whose parameter `reportWithIterator` is the return value from `createIteratorObject` function |
+  | [iterateThroughObject.js] (./iterateThroughObject.js) | function `iterateThroughObject` whose parameter `reportWithIterator` is the return value from `createIteratorObject` function |
 
  

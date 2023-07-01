@@ -1,1 +1,1 @@
-# This repository all the alx software engineering backend projects.
+# This repository contains all the alx software engineering backend projects.
