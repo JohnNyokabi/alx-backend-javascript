@@ -1,17 +1,13 @@
 import express from 'express';
-import bodyParser from 'body-parser';
-import routes from './routes/index.js';
+import controllerRouting from './routes/index';
 
 const app = express();
-const target_port = 1245;
+const port = 1245;
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-
-app.use('/', routes);
+controllerRouting(app);
 
 app.listen(port, () => {
-  console.log(`Server is running on port ${target_port}`);
+  console.log(`Server is running on port ${port}`);
 });
 
 export default app;
